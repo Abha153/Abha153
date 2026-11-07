@@ -1,0 +1,33 @@
+# Generates the 3D contribution graph shown in README.md.
+# Based on the upstream documentation:
+# https://github.com/yoshi389111/github-profile-3d-contrib#step-2-create-workflow-file
+name: GitHub-Profile-3D-Contrib
+
+on:
+  schedule:
+    # Daily at 03:00 IST (21:30 UTC the previous day). Cron times are always UTC.
+    - cron: "30 21 * * *"
+  workflow_dispatch: # allows manual runs from the Actions tab
+
+# The default GITHUB_TOKEN only needs to push the generated SVGs back to this repo.
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-github-profile-3d-contrib
+    steps:
+      - uses: actions/checkout@v5
+      - uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add profile-3d-contrib
+          if git commit -m "Update 3D contribution graph"; then
+            git push
+          fi
