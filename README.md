@@ -72,8 +72,14 @@ Individual projects only. Each role below is based on the repository's commit hi
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Abha153/CropRetain"><img src="assets\projects\cropretain-placeholder.png"
-      alt="CropRetain card; a real screenshot" /></a>
+     
+<a href="https://github.com/Abha153/CropRetain">
+  <img
+    src="./assets/projects/cropretain-placeholder.png"
+    alt="CropRetain dashboard showing farm health, soil intelligence and the selling journey"
+  />
+</a>
+
       <h3>CropRetain</h3>
       <img src="assets/status-developing.svg" height="22" alt="Status: Actively developing" /><br /><br />
       Helps farmers decide where, when and to whom to sell: mandi price comparison, forecasts, buyer matching, transport and storage coordination, in 15 interface languages.<br /><br />
@@ -126,5 +132,28 @@ Individual projects only. Each role below is based on the repository's commit hi
   <a href="https://leetcode.com/u/abha15/"><img src="assets/icons/leetcode.svg" width="22" alt="" /> LeetCode</a> &nbsp;·&nbsp;
   <a href="https://www.hackerrank.com/profile/abha69528/"><img src="assets/icons/hackerrank.svg" width="22" alt="" /> HackerRank</a>
 </p>
+
+<h2 align="center">🌌 My Contribution Universe</h2>
+
+<p align="center">
+  <img
+    src="./profile-3d-contrib/profile-green-animate.svg"
+    width="100%"
+    alt="Abha's 3D GitHub contribution calendar"
+  />
+</p>
+
+<br/>
+
+<h2 align="center">⚡ Coding Consistency</h2>
+
+<p align="center">
+  <img
+    src="https://streak-stats.demolab.com/?user=Abha153&theme=transparent&hide_border=true"
+    alt="GitHub contribution streak"
+  />
+</p>
+
+<br/>
 
 <p align="center"><i>Build with purpose. Improve with intention.</i></p>
