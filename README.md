@@ -72,7 +72,8 @@ Individual projects only. Each role below is based on the repository's commit hi
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/Abha153/CropRetain"><img src="assets/projects/cropretain-placeholder.svg" alt="CropRetain card; a real screenshot is still to be added" /></a>
+      <a href="https://github.com/Abha153/CropRetain"><img src="assets/projects/cropretain-placeholder.png
+      " alt="CropRetain card; a real screenshot is still to be added" /></a>
       <h3>CropRetain</h3>
       <img src="assets/status-developing.svg" height="22" alt="Status: Actively developing" /><br /><br />
       Helps farmers decide where, when and to whom to sell: mandi price comparison, forecasts, buyer matching, transport and storage coordination, in 15 interface languages.<br /><br />
